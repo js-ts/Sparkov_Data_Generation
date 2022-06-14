@@ -1,3 +1,3 @@
 tasks:
   - init: pip3 install -r requirements.txt
-    command: python3 datagen.py -n 100000 -o output '2020-01-01' '2020-10-01'
+    command: python3 datagen.py -n 100000 -o output 2020-01-01 2020-10-01
